@@ -1,0 +1,24 @@
+{
+  "name": "knowt_web_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XuanDu-303/knowt_web_app.git"
+  },
+  "author": "xuandu",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/XuanDu-303/knowt_web_app/issues"
+  },
+  "homepage": "https://github.com/XuanDu-303/knowt_web_app#readme",
+  "description": ""
+}

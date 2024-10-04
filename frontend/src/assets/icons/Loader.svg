@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" width="200" height="200" style="shape-rendering: auto; display: block; background: linear-gradient(45deg, #d65b9e 1%, #f699cb 22%, #ffacd9 51%, #f699cb 83%, #d65b9e 100%);">
+  <g>
+    <!-- Chấm trắng 1 -->
+    <circle fill="white" r="5" cy="25" cx="10">
+      <animate attributeName="cy" values="25;75;25" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Chấm hồng 2 -->
+    <circle fill="#ff47aa" r="5" cy="25" cx="30">
+      <animate attributeName="cy" values="25;75;25" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Chấm trắng 3 -->
+    <circle fill="white" r="5" cy="25" cx="50">
+      <animate attributeName="cy" values="25;75;25" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Chấm hồng 4 -->
+    <circle fill="#ff47aa" r="5" cy="25" cx="70">
+      <animate attributeName="cy" values="25;75;25" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Chấm trắng 5 -->
+    <circle fill="white" r="5" cy="25" cx="90">
+      <animate attributeName="cy" values="25;75;25" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>

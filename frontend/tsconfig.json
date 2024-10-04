@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    // ...rest of the template
+    "esModuleInterop": true,
+    "jsx": "react",
+    "types": [
+      "node"
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
